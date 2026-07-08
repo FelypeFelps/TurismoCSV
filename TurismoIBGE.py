@@ -267,26 +267,6 @@ def carregar_dados(caminho):
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 # Executa a função.
 dados_turismo = carregar_dados(CAMINHO_ARQUIVO)
 
