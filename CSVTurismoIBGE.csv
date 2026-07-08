@@ -1,0 +1,649 @@
+﻿territorio;mes;variavel;valor;unidade
+Brasil;janeiro 2025;numero_indice;118.02;pontos_de_indice
+Brasil;fevereiro 2025;numero_indice;103.29;pontos_de_indice
+Brasil;março 2025;numero_indice;113.04;pontos_de_indice
+Brasil;abril 2025;numero_indice;112.42;pontos_de_indice
+Brasil;maio 2025;numero_indice;114.73;pontos_de_indice
+Brasil;junho 2025;numero_indice;112.22;pontos_de_indice
+Brasil;julho 2025;numero_indice;120.81;pontos_de_indice
+Brasil;agosto 2025;numero_indice;115.85;pontos_de_indice
+Brasil;setembro 2025;numero_indice;115.83;pontos_de_indice
+Brasil;outubro 2025;numero_indice;120.08;pontos_de_indice
+Brasil;novembro 2025;numero_indice;118.41;pontos_de_indice
+Brasil;dezembro 2025;numero_indice;130.06;pontos_de_indice
+Amazonas;janeiro 2025;numero_indice;86.49;pontos_de_indice
+Amazonas;fevereiro 2025;numero_indice;87.35;pontos_de_indice
+Amazonas;março 2025;numero_indice;91.10;pontos_de_indice
+Amazonas;abril 2025;numero_indice;98.15;pontos_de_indice
+Amazonas;maio 2025;numero_indice;105.85;pontos_de_indice
+Amazonas;junho 2025;numero_indice;115.29;pontos_de_indice
+Amazonas;julho 2025;numero_indice;103.48;pontos_de_indice
+Amazonas;agosto 2025;numero_indice;119.11;pontos_de_indice
+Amazonas;setembro 2025;numero_indice;117.30;pontos_de_indice
+Amazonas;outubro 2025;numero_indice;118.85;pontos_de_indice
+Amazonas;novembro 2025;numero_indice;104.57;pontos_de_indice
+Amazonas;dezembro 2025;numero_indice;110.88;pontos_de_indice
+Pará;janeiro 2025;numero_indice;107.45;pontos_de_indice
+Pará;fevereiro 2025;numero_indice;109.06;pontos_de_indice
+Pará;março 2025;numero_indice;110.61;pontos_de_indice
+Pará;abril 2025;numero_indice;110.92;pontos_de_indice
+Pará;maio 2025;numero_indice;121.12;pontos_de_indice
+Pará;junho 2025;numero_indice;125.35;pontos_de_indice
+Pará;julho 2025;numero_indice;125.48;pontos_de_indice
+Pará;agosto 2025;numero_indice;127.42;pontos_de_indice
+Pará;setembro 2025;numero_indice;132.60;pontos_de_indice
+Pará;outubro 2025;numero_indice;135.68;pontos_de_indice
+Pará;novembro 2025;numero_indice;140.12;pontos_de_indice
+Pará;dezembro 2025;numero_indice;131.94;pontos_de_indice
+Ceará;janeiro 2025;numero_indice;124.68;pontos_de_indice
+Ceará;fevereiro 2025;numero_indice;92.94;pontos_de_indice
+Ceará;março 2025;numero_indice;98.72;pontos_de_indice
+Ceará;abril 2025;numero_indice;98.88;pontos_de_indice
+Ceará;maio 2025;numero_indice;102.85;pontos_de_indice
+Ceará;junho 2025;numero_indice;101.36;pontos_de_indice
+Ceará;julho 2025;numero_indice;128.69;pontos_de_indice
+Ceará;agosto 2025;numero_indice;115.78;pontos_de_indice
+Ceará;setembro 2025;numero_indice;103.82;pontos_de_indice
+Ceará;outubro 2025;numero_indice;112.36;pontos_de_indice
+Ceará;novembro 2025;numero_indice;107.29;pontos_de_indice
+Ceará;dezembro 2025;numero_indice;110.55;pontos_de_indice
+Rio Grande do Norte;janeiro 2025;numero_indice;132.04;pontos_de_indice
+Rio Grande do Norte;fevereiro 2025;numero_indice;98.85;pontos_de_indice
+Rio Grande do Norte;março 2025;numero_indice;108.28;pontos_de_indice
+Rio Grande do Norte;abril 2025;numero_indice;97.74;pontos_de_indice
+Rio Grande do Norte;maio 2025;numero_indice;96.32;pontos_de_indice
+Rio Grande do Norte;junho 2025;numero_indice;91.20;pontos_de_indice
+Rio Grande do Norte;julho 2025;numero_indice;104.62;pontos_de_indice
+Rio Grande do Norte;agosto 2025;numero_indice;103.38;pontos_de_indice
+Rio Grande do Norte;setembro 2025;numero_indice;98.91;pontos_de_indice
+Rio Grande do Norte;outubro 2025;numero_indice;110.51;pontos_de_indice
+Rio Grande do Norte;novembro 2025;numero_indice;106.02;pontos_de_indice
+Rio Grande do Norte;dezembro 2025;numero_indice;109.70;pontos_de_indice
+Pernambuco;janeiro 2025;numero_indice;122.35;pontos_de_indice
+Pernambuco;fevereiro 2025;numero_indice;99.70;pontos_de_indice
+Pernambuco;março 2025;numero_indice;110.03;pontos_de_indice
+Pernambuco;abril 2025;numero_indice;106.36;pontos_de_indice
+Pernambuco;maio 2025;numero_indice;103.37;pontos_de_indice
+Pernambuco;junho 2025;numero_indice;106.37;pontos_de_indice
+Pernambuco;julho 2025;numero_indice;118.11;pontos_de_indice
+Pernambuco;agosto 2025;numero_indice;112.98;pontos_de_indice
+Pernambuco;setembro 2025;numero_indice;110.23;pontos_de_indice
+Pernambuco;outubro 2025;numero_indice;114.49;pontos_de_indice
+Pernambuco;novembro 2025;numero_indice;106.57;pontos_de_indice
+Pernambuco;dezembro 2025;numero_indice;104.36;pontos_de_indice
+Alagoas;janeiro 2025;numero_indice;134.51;pontos_de_indice
+Alagoas;fevereiro 2025;numero_indice;95.73;pontos_de_indice
+Alagoas;março 2025;numero_indice;107.95;pontos_de_indice
+Alagoas;abril 2025;numero_indice;99.91;pontos_de_indice
+Alagoas;maio 2025;numero_indice;93.56;pontos_de_indice
+Alagoas;junho 2025;numero_indice;84.22;pontos_de_indice
+Alagoas;julho 2025;numero_indice;105.48;pontos_de_indice
+Alagoas;agosto 2025;numero_indice;99.31;pontos_de_indice
+Alagoas;setembro 2025;numero_indice;98.44;pontos_de_indice
+Alagoas;outubro 2025;numero_indice;105.83;pontos_de_indice
+Alagoas;novembro 2025;numero_indice;101.49;pontos_de_indice
+Alagoas;dezembro 2025;numero_indice;107.65;pontos_de_indice
+Bahia;janeiro 2025;numero_indice;157.65;pontos_de_indice
+Bahia;fevereiro 2025;numero_indice;120.06;pontos_de_indice
+Bahia;março 2025;numero_indice;141.56;pontos_de_indice
+Bahia;abril 2025;numero_indice;124.06;pontos_de_indice
+Bahia;maio 2025;numero_indice;120.32;pontos_de_indice
+Bahia;junho 2025;numero_indice;113.90;pontos_de_indice
+Bahia;julho 2025;numero_indice;130.62;pontos_de_indice
+Bahia;agosto 2025;numero_indice;123.71;pontos_de_indice
+Bahia;setembro 2025;numero_indice;122.67;pontos_de_indice
+Bahia;outubro 2025;numero_indice;130.59;pontos_de_indice
+Bahia;novembro 2025;numero_indice;127.72;pontos_de_indice
+Bahia;dezembro 2025;numero_indice;135.93;pontos_de_indice
+Minas Gerais;janeiro 2025;numero_indice;114.48;pontos_de_indice
+Minas Gerais;fevereiro 2025;numero_indice;108.76;pontos_de_indice
+Minas Gerais;março 2025;numero_indice;115.67;pontos_de_indice
+Minas Gerais;abril 2025;numero_indice;115.45;pontos_de_indice
+Minas Gerais;maio 2025;numero_indice;119.88;pontos_de_indice
+Minas Gerais;junho 2025;numero_indice;113.60;pontos_de_indice
+Minas Gerais;julho 2025;numero_indice;119.26;pontos_de_indice
+Minas Gerais;agosto 2025;numero_indice;114.65;pontos_de_indice
+Minas Gerais;setembro 2025;numero_indice;114.56;pontos_de_indice
+Minas Gerais;outubro 2025;numero_indice;118.55;pontos_de_indice
+Minas Gerais;novembro 2025;numero_indice;114.12;pontos_de_indice
+Minas Gerais;dezembro 2025;numero_indice;120.41;pontos_de_indice
+Espírito Santo;janeiro 2025;numero_indice;104.79;pontos_de_indice
+Espírito Santo;fevereiro 2025;numero_indice;101.37;pontos_de_indice
+Espírito Santo;março 2025;numero_indice;93.48;pontos_de_indice
+Espírito Santo;abril 2025;numero_indice;97.35;pontos_de_indice
+Espírito Santo;maio 2025;numero_indice;102.03;pontos_de_indice
+Espírito Santo;junho 2025;numero_indice;98.82;pontos_de_indice
+Espírito Santo;julho 2025;numero_indice;104.27;pontos_de_indice
+Espírito Santo;agosto 2025;numero_indice;103.17;pontos_de_indice
+Espírito Santo;setembro 2025;numero_indice;104.69;pontos_de_indice
+Espírito Santo;outubro 2025;numero_indice;111.68;pontos_de_indice
+Espírito Santo;novembro 2025;numero_indice;106.85;pontos_de_indice
+Espírito Santo;dezembro 2025;numero_indice;111.37;pontos_de_indice
+Rio de Janeiro;janeiro 2025;numero_indice;119.74;pontos_de_indice
+Rio de Janeiro;fevereiro 2025;numero_indice;113.61;pontos_de_indice
+Rio de Janeiro;março 2025;numero_indice;133.11;pontos_de_indice
+Rio de Janeiro;abril 2025;numero_indice;127.37;pontos_de_indice
+Rio de Janeiro;maio 2025;numero_indice;134.34;pontos_de_indice
+Rio de Janeiro;junho 2025;numero_indice;126.73;pontos_de_indice
+Rio de Janeiro;julho 2025;numero_indice;125.51;pontos_de_indice
+Rio de Janeiro;agosto 2025;numero_indice;130.16;pontos_de_indice
+Rio de Janeiro;setembro 2025;numero_indice;137.15;pontos_de_indice
+Rio de Janeiro;outubro 2025;numero_indice;136.12;pontos_de_indice
+Rio de Janeiro;novembro 2025;numero_indice;133.55;pontos_de_indice
+Rio de Janeiro;dezembro 2025;numero_indice;151.73;pontos_de_indice
+São Paulo;janeiro 2025;numero_indice;117.49;pontos_de_indice
+São Paulo;fevereiro 2025;numero_indice;101.23;pontos_de_indice
+São Paulo;março 2025;numero_indice;110.49;pontos_de_indice
+São Paulo;abril 2025;numero_indice;111.73;pontos_de_indice
+São Paulo;maio 2025;numero_indice;112.60;pontos_de_indice
+São Paulo;junho 2025;numero_indice;111.81;pontos_de_indice
+São Paulo;julho 2025;numero_indice;121.35;pontos_de_indice
+São Paulo;agosto 2025;numero_indice;113.30;pontos_de_indice
+São Paulo;setembro 2025;numero_indice;113.95;pontos_de_indice
+São Paulo;outubro 2025;numero_indice;117.46;pontos_de_indice
+São Paulo;novembro 2025;numero_indice;118.87;pontos_de_indice
+São Paulo;dezembro 2025;numero_indice;135.15;pontos_de_indice
+Paraná;janeiro 2025;numero_indice;116.42;pontos_de_indice
+Paraná;fevereiro 2025;numero_indice;111.29;pontos_de_indice
+Paraná;março 2025;numero_indice;119.08;pontos_de_indice
+Paraná;abril 2025;numero_indice;123.58;pontos_de_indice
+Paraná;maio 2025;numero_indice;127.33;pontos_de_indice
+Paraná;junho 2025;numero_indice;122.74;pontos_de_indice
+Paraná;julho 2025;numero_indice;129.69;pontos_de_indice
+Paraná;agosto 2025;numero_indice;126.73;pontos_de_indice
+Paraná;setembro 2025;numero_indice;127.93;pontos_de_indice
+Paraná;outubro 2025;numero_indice;137.15;pontos_de_indice
+Paraná;novembro 2025;numero_indice;134.06;pontos_de_indice
+Paraná;dezembro 2025;numero_indice;142.71;pontos_de_indice
+Santa Catarina;janeiro 2025;numero_indice;150.19;pontos_de_indice
+Santa Catarina;fevereiro 2025;numero_indice;118.85;pontos_de_indice
+Santa Catarina;março 2025;numero_indice;126.62;pontos_de_indice
+Santa Catarina;abril 2025;numero_indice;115.15;pontos_de_indice
+Santa Catarina;maio 2025;numero_indice;113.63;pontos_de_indice
+Santa Catarina;junho 2025;numero_indice;102.54;pontos_de_indice
+Santa Catarina;julho 2025;numero_indice;117.58;pontos_de_indice
+Santa Catarina;agosto 2025;numero_indice;107.59;pontos_de_indice
+Santa Catarina;setembro 2025;numero_indice;109.60;pontos_de_indice
+Santa Catarina;outubro 2025;numero_indice;120.65;pontos_de_indice
+Santa Catarina;novembro 2025;numero_indice;116.94;pontos_de_indice
+Santa Catarina;dezembro 2025;numero_indice;129.00;pontos_de_indice
+Rio Grande do Sul;janeiro 2025;numero_indice;96.93;pontos_de_indice
+Rio Grande do Sul;fevereiro 2025;numero_indice;84.39;pontos_de_indice
+Rio Grande do Sul;março 2025;numero_indice;93.04;pontos_de_indice
+Rio Grande do Sul;abril 2025;numero_indice;95.54;pontos_de_indice
+Rio Grande do Sul;maio 2025;numero_indice;96.73;pontos_de_indice
+Rio Grande do Sul;junho 2025;numero_indice;96.04;pontos_de_indice
+Rio Grande do Sul;julho 2025;numero_indice;106.53;pontos_de_indice
+Rio Grande do Sul;agosto 2025;numero_indice;97.68;pontos_de_indice
+Rio Grande do Sul;setembro 2025;numero_indice;94.07;pontos_de_indice
+Rio Grande do Sul;outubro 2025;numero_indice;102.46;pontos_de_indice
+Rio Grande do Sul;novembro 2025;numero_indice;107.84;pontos_de_indice
+Rio Grande do Sul;dezembro 2025;numero_indice;112.60;pontos_de_indice
+Mato Grosso;janeiro 2025;numero_indice;75.39;pontos_de_indice
+Mato Grosso;fevereiro 2025;numero_indice;74.81;pontos_de_indice
+Mato Grosso;março 2025;numero_indice;79.07;pontos_de_indice
+Mato Grosso;abril 2025;numero_indice;83.58;pontos_de_indice
+Mato Grosso;maio 2025;numero_indice;88.76;pontos_de_indice
+Mato Grosso;junho 2025;numero_indice;87.06;pontos_de_indice
+Mato Grosso;julho 2025;numero_indice;96.22;pontos_de_indice
+Mato Grosso;agosto 2025;numero_indice;96.51;pontos_de_indice
+Mato Grosso;setembro 2025;numero_indice;90.83;pontos_de_indice
+Mato Grosso;outubro 2025;numero_indice;88.88;pontos_de_indice
+Mato Grosso;novembro 2025;numero_indice;88.74;pontos_de_indice
+Mato Grosso;dezembro 2025;numero_indice;97.80;pontos_de_indice
+Goiás;janeiro 2025;numero_indice;114.81;pontos_de_indice
+Goiás;fevereiro 2025;numero_indice;85.50;pontos_de_indice
+Goiás;março 2025;numero_indice;89.96;pontos_de_indice
+Goiás;abril 2025;numero_indice;103.87;pontos_de_indice
+Goiás;maio 2025;numero_indice;104.15;pontos_de_indice
+Goiás;junho 2025;numero_indice;105.15;pontos_de_indice
+Goiás;julho 2025;numero_indice;127.50;pontos_de_indice
+Goiás;agosto 2025;numero_indice;107.90;pontos_de_indice
+Goiás;setembro 2025;numero_indice;97.37;pontos_de_indice
+Goiás;outubro 2025;numero_indice;98.26;pontos_de_indice
+Goiás;novembro 2025;numero_indice;99.44;pontos_de_indice
+Goiás;dezembro 2025;numero_indice;112.09;pontos_de_indice
+Distrito Federal;janeiro 2025;numero_indice;86.25;pontos_de_indice
+Distrito Federal;fevereiro 2025;numero_indice;89.01;pontos_de_indice
+Distrito Federal;março 2025;numero_indice;90.85;pontos_de_indice
+Distrito Federal;abril 2025;numero_indice;95.89;pontos_de_indice
+Distrito Federal;maio 2025;numero_indice;101.27;pontos_de_indice
+Distrito Federal;junho 2025;numero_indice;103.71;pontos_de_indice
+Distrito Federal;julho 2025;numero_indice;108.77;pontos_de_indice
+Distrito Federal;agosto 2025;numero_indice;111.46;pontos_de_indice
+Distrito Federal;setembro 2025;numero_indice;107.22;pontos_de_indice
+Distrito Federal;outubro 2025;numero_indice;111.43;pontos_de_indice
+Distrito Federal;novembro 2025;numero_indice;102.69;pontos_de_indice
+Distrito Federal;dezembro 2025;numero_indice;114.78;pontos_de_indice
+Brasil;janeiro 2025;variacao_mesmo_mes_ano_anterior;3.5;percentual
+Brasil;fevereiro 2025;variacao_mesmo_mes_ano_anterior;7.3;percentual
+Brasil;março 2025;variacao_mesmo_mes_ano_anterior;6.0;percentual
+Brasil;abril 2025;variacao_mesmo_mes_ano_anterior;9.2;percentual
+Brasil;maio 2025;variacao_mesmo_mes_ano_anterior;9.9;percentual
+Brasil;junho 2025;variacao_mesmo_mes_ano_anterior;4.4;percentual
+Brasil;julho 2025;variacao_mesmo_mes_ano_anterior;3.3;percentual
+Brasil;agosto 2025;variacao_mesmo_mes_ano_anterior;4.7;percentual
+Brasil;setembro 2025;variacao_mesmo_mes_ano_anterior;4.9;percentual
+Brasil;outubro 2025;variacao_mesmo_mes_ano_anterior;2.2;percentual
+Brasil;novembro 2025;variacao_mesmo_mes_ano_anterior;3.0;percentual
+Brasil;dezembro 2025;variacao_mesmo_mes_ano_anterior;-0.7;percentual
+Amazonas;janeiro 2025;variacao_mesmo_mes_ano_anterior;9.2;percentual
+Amazonas;fevereiro 2025;variacao_mesmo_mes_ano_anterior;8.1;percentual
+Amazonas;março 2025;variacao_mesmo_mes_ano_anterior;6.0;percentual
+Amazonas;abril 2025;variacao_mesmo_mes_ano_anterior;12.9;percentual
+Amazonas;maio 2025;variacao_mesmo_mes_ano_anterior;19.0;percentual
+Amazonas;junho 2025;variacao_mesmo_mes_ano_anterior;14.4;percentual
+Amazonas;julho 2025;variacao_mesmo_mes_ano_anterior;5.7;percentual
+Amazonas;agosto 2025;variacao_mesmo_mes_ano_anterior;16.4;percentual
+Amazonas;setembro 2025;variacao_mesmo_mes_ano_anterior;20.3;percentual
+Amazonas;outubro 2025;variacao_mesmo_mes_ano_anterior;13.0;percentual
+Amazonas;novembro 2025;variacao_mesmo_mes_ano_anterior;9.0;percentual
+Amazonas;dezembro 2025;variacao_mesmo_mes_ano_anterior;2.7;percentual
+Pará;janeiro 2025;variacao_mesmo_mes_ano_anterior;8.4;percentual
+Pará;fevereiro 2025;variacao_mesmo_mes_ano_anterior;11.7;percentual
+Pará;março 2025;variacao_mesmo_mes_ano_anterior;9.3;percentual
+Pará;abril 2025;variacao_mesmo_mes_ano_anterior;4.3;percentual
+Pará;maio 2025;variacao_mesmo_mes_ano_anterior;6.4;percentual
+Pará;junho 2025;variacao_mesmo_mes_ano_anterior;6.6;percentual
+Pará;julho 2025;variacao_mesmo_mes_ano_anterior;-4.5;percentual
+Pará;agosto 2025;variacao_mesmo_mes_ano_anterior;5.1;percentual
+Pará;setembro 2025;variacao_mesmo_mes_ano_anterior;13.2;percentual
+Pará;outubro 2025;variacao_mesmo_mes_ano_anterior;9.1;percentual
+Pará;novembro 2025;variacao_mesmo_mes_ano_anterior;25.0;percentual
+Pará;dezembro 2025;variacao_mesmo_mes_ano_anterior;-0.7;percentual
+Ceará;janeiro 2025;variacao_mesmo_mes_ano_anterior;1.4;percentual
+Ceará;fevereiro 2025;variacao_mesmo_mes_ano_anterior;8.0;percentual
+Ceará;março 2025;variacao_mesmo_mes_ano_anterior;14.7;percentual
+Ceará;abril 2025;variacao_mesmo_mes_ano_anterior;11.6;percentual
+Ceará;maio 2025;variacao_mesmo_mes_ano_anterior;10.7;percentual
+Ceará;junho 2025;variacao_mesmo_mes_ano_anterior;5.7;percentual
+Ceará;julho 2025;variacao_mesmo_mes_ano_anterior;6.9;percentual
+Ceará;agosto 2025;variacao_mesmo_mes_ano_anterior;8.8;percentual
+Ceará;setembro 2025;variacao_mesmo_mes_ano_anterior;11.5;percentual
+Ceará;outubro 2025;variacao_mesmo_mes_ano_anterior;5.8;percentual
+Ceará;novembro 2025;variacao_mesmo_mes_ano_anterior;5.4;percentual
+Ceará;dezembro 2025;variacao_mesmo_mes_ano_anterior;0.2;percentual
+Rio Grande do Norte;janeiro 2025;variacao_mesmo_mes_ano_anterior;3.7;percentual
+Rio Grande do Norte;fevereiro 2025;variacao_mesmo_mes_ano_anterior;4.2;percentual
+Rio Grande do Norte;março 2025;variacao_mesmo_mes_ano_anterior;16.3;percentual
+Rio Grande do Norte;abril 2025;variacao_mesmo_mes_ano_anterior;6.5;percentual
+Rio Grande do Norte;maio 2025;variacao_mesmo_mes_ano_anterior;5.4;percentual
+Rio Grande do Norte;junho 2025;variacao_mesmo_mes_ano_anterior;3.0;percentual
+Rio Grande do Norte;julho 2025;variacao_mesmo_mes_ano_anterior;0.5;percentual
+Rio Grande do Norte;agosto 2025;variacao_mesmo_mes_ano_anterior;6.2;percentual
+Rio Grande do Norte;setembro 2025;variacao_mesmo_mes_ano_anterior;5.5;percentual
+Rio Grande do Norte;outubro 2025;variacao_mesmo_mes_ano_anterior;2.7;percentual
+Rio Grande do Norte;novembro 2025;variacao_mesmo_mes_ano_anterior;3.5;percentual
+Rio Grande do Norte;dezembro 2025;variacao_mesmo_mes_ano_anterior;-3.0;percentual
+Pernambuco;janeiro 2025;variacao_mesmo_mes_ano_anterior;-1.4;percentual
+Pernambuco;fevereiro 2025;variacao_mesmo_mes_ano_anterior;1.7;percentual
+Pernambuco;março 2025;variacao_mesmo_mes_ano_anterior;2.5;percentual
+Pernambuco;abril 2025;variacao_mesmo_mes_ano_anterior;8.6;percentual
+Pernambuco;maio 2025;variacao_mesmo_mes_ano_anterior;3.0;percentual
+Pernambuco;junho 2025;variacao_mesmo_mes_ano_anterior;2.6;percentual
+Pernambuco;julho 2025;variacao_mesmo_mes_ano_anterior;5.4;percentual
+Pernambuco;agosto 2025;variacao_mesmo_mes_ano_anterior;5.9;percentual
+Pernambuco;setembro 2025;variacao_mesmo_mes_ano_anterior;8.8;percentual
+Pernambuco;outubro 2025;variacao_mesmo_mes_ano_anterior;1.4;percentual
+Pernambuco;novembro 2025;variacao_mesmo_mes_ano_anterior;4.3;percentual
+Pernambuco;dezembro 2025;variacao_mesmo_mes_ano_anterior;-5.7;percentual
+Alagoas;janeiro 2025;variacao_mesmo_mes_ano_anterior;-1.9;percentual
+Alagoas;fevereiro 2025;variacao_mesmo_mes_ano_anterior;-4.6;percentual
+Alagoas;março 2025;variacao_mesmo_mes_ano_anterior;7.5;percentual
+Alagoas;abril 2025;variacao_mesmo_mes_ano_anterior;10.9;percentual
+Alagoas;maio 2025;variacao_mesmo_mes_ano_anterior;1.5;percentual
+Alagoas;junho 2025;variacao_mesmo_mes_ano_anterior;-3.3;percentual
+Alagoas;julho 2025;variacao_mesmo_mes_ano_anterior;-2.4;percentual
+Alagoas;agosto 2025;variacao_mesmo_mes_ano_anterior;4.4;percentual
+Alagoas;setembro 2025;variacao_mesmo_mes_ano_anterior;6.4;percentual
+Alagoas;outubro 2025;variacao_mesmo_mes_ano_anterior;2.5;percentual
+Alagoas;novembro 2025;variacao_mesmo_mes_ano_anterior;5.3;percentual
+Alagoas;dezembro 2025;variacao_mesmo_mes_ano_anterior;0.4;percentual
+Bahia;janeiro 2025;variacao_mesmo_mes_ano_anterior;9.0;percentual
+Bahia;fevereiro 2025;variacao_mesmo_mes_ano_anterior;2.9;percentual
+Bahia;março 2025;variacao_mesmo_mes_ano_anterior;14.3;percentual
+Bahia;abril 2025;variacao_mesmo_mes_ano_anterior;15.0;percentual
+Bahia;maio 2025;variacao_mesmo_mes_ano_anterior;12.3;percentual
+Bahia;junho 2025;variacao_mesmo_mes_ano_anterior;1.9;percentual
+Bahia;julho 2025;variacao_mesmo_mes_ano_anterior;3.4;percentual
+Bahia;agosto 2025;variacao_mesmo_mes_ano_anterior;4.5;percentual
+Bahia;setembro 2025;variacao_mesmo_mes_ano_anterior;8.9;percentual
+Bahia;outubro 2025;variacao_mesmo_mes_ano_anterior;4.9;percentual
+Bahia;novembro 2025;variacao_mesmo_mes_ano_anterior;6.9;percentual
+Bahia;dezembro 2025;variacao_mesmo_mes_ano_anterior;1.2;percentual
+Minas Gerais;janeiro 2025;variacao_mesmo_mes_ano_anterior;-1.7;percentual
+Minas Gerais;fevereiro 2025;variacao_mesmo_mes_ano_anterior;3.8;percentual
+Minas Gerais;março 2025;variacao_mesmo_mes_ano_anterior;1.2;percentual
+Minas Gerais;abril 2025;variacao_mesmo_mes_ano_anterior;-3.1;percentual
+Minas Gerais;maio 2025;variacao_mesmo_mes_ano_anterior;-1.7;percentual
+Minas Gerais;junho 2025;variacao_mesmo_mes_ano_anterior;-7.5;percentual
+Minas Gerais;julho 2025;variacao_mesmo_mes_ano_anterior;-8.0;percentual
+Minas Gerais;agosto 2025;variacao_mesmo_mes_ano_anterior;-7.1;percentual
+Minas Gerais;setembro 2025;variacao_mesmo_mes_ano_anterior;-6.1;percentual
+Minas Gerais;outubro 2025;variacao_mesmo_mes_ano_anterior;-5.5;percentual
+Minas Gerais;novembro 2025;variacao_mesmo_mes_ano_anterior;-5.5;percentual
+Minas Gerais;dezembro 2025;variacao_mesmo_mes_ano_anterior;-10.4;percentual
+Espírito Santo;janeiro 2025;variacao_mesmo_mes_ano_anterior;6.6;percentual
+Espírito Santo;fevereiro 2025;variacao_mesmo_mes_ano_anterior;19.5;percentual
+Espírito Santo;março 2025;variacao_mesmo_mes_ano_anterior;3.5;percentual
+Espírito Santo;abril 2025;variacao_mesmo_mes_ano_anterior;5.4;percentual
+Espírito Santo;maio 2025;variacao_mesmo_mes_ano_anterior;6.8;percentual
+Espírito Santo;junho 2025;variacao_mesmo_mes_ano_anterior;-2.3;percentual
+Espírito Santo;julho 2025;variacao_mesmo_mes_ano_anterior;0.0;percentual
+Espírito Santo;agosto 2025;variacao_mesmo_mes_ano_anterior;-0.5;percentual
+Espírito Santo;setembro 2025;variacao_mesmo_mes_ano_anterior;4.1;percentual
+Espírito Santo;outubro 2025;variacao_mesmo_mes_ano_anterior;5.0;percentual
+Espírito Santo;novembro 2025;variacao_mesmo_mes_ano_anterior;4.6;percentual
+Espírito Santo;dezembro 2025;variacao_mesmo_mes_ano_anterior;5.8;percentual
+Rio de Janeiro;janeiro 2025;variacao_mesmo_mes_ano_anterior;6.4;percentual
+Rio de Janeiro;fevereiro 2025;variacao_mesmo_mes_ano_anterior;11.4;percentual
+Rio de Janeiro;março 2025;variacao_mesmo_mes_ano_anterior;16.9;percentual
+Rio de Janeiro;abril 2025;variacao_mesmo_mes_ano_anterior;20.7;percentual
+Rio de Janeiro;maio 2025;variacao_mesmo_mes_ano_anterior;22.0;percentual
+Rio de Janeiro;junho 2025;variacao_mesmo_mes_ano_anterior;8.7;percentual
+Rio de Janeiro;julho 2025;variacao_mesmo_mes_ano_anterior;4.2;percentual
+Rio de Janeiro;agosto 2025;variacao_mesmo_mes_ano_anterior;13.4;percentual
+Rio de Janeiro;setembro 2025;variacao_mesmo_mes_ano_anterior;-0.7;percentual
+Rio de Janeiro;outubro 2025;variacao_mesmo_mes_ano_anterior;9.8;percentual
+Rio de Janeiro;novembro 2025;variacao_mesmo_mes_ano_anterior;6.6;percentual
+Rio de Janeiro;dezembro 2025;variacao_mesmo_mes_ano_anterior;8.8;percentual
+São Paulo;janeiro 2025;variacao_mesmo_mes_ano_anterior;4.0;percentual
+São Paulo;fevereiro 2025;variacao_mesmo_mes_ano_anterior;8.3;percentual
+São Paulo;março 2025;variacao_mesmo_mes_ano_anterior;4.2;percentual
+São Paulo;abril 2025;variacao_mesmo_mes_ano_anterior;9.9;percentual
+São Paulo;maio 2025;variacao_mesmo_mes_ano_anterior;7.0;percentual
+São Paulo;junho 2025;variacao_mesmo_mes_ano_anterior;3.8;percentual
+São Paulo;julho 2025;variacao_mesmo_mes_ano_anterior;4.8;percentual
+São Paulo;agosto 2025;variacao_mesmo_mes_ano_anterior;3.8;percentual
+São Paulo;setembro 2025;variacao_mesmo_mes_ano_anterior;6.7;percentual
+São Paulo;outubro 2025;variacao_mesmo_mes_ano_anterior;-1.0;percentual
+São Paulo;novembro 2025;variacao_mesmo_mes_ano_anterior;2.3;percentual
+São Paulo;dezembro 2025;variacao_mesmo_mes_ano_anterior;-1.9;percentual
+Paraná;janeiro 2025;variacao_mesmo_mes_ano_anterior;2.3;percentual
+Paraná;fevereiro 2025;variacao_mesmo_mes_ano_anterior;9.8;percentual
+Paraná;março 2025;variacao_mesmo_mes_ano_anterior;1.9;percentual
+Paraná;abril 2025;variacao_mesmo_mes_ano_anterior;4.3;percentual
+Paraná;maio 2025;variacao_mesmo_mes_ano_anterior;11.4;percentual
+Paraná;junho 2025;variacao_mesmo_mes_ano_anterior;7.0;percentual
+Paraná;julho 2025;variacao_mesmo_mes_ano_anterior;6.6;percentual
+Paraná;agosto 2025;variacao_mesmo_mes_ano_anterior;4.7;percentual
+Paraná;setembro 2025;variacao_mesmo_mes_ano_anterior;6.0;percentual
+Paraná;outubro 2025;variacao_mesmo_mes_ano_anterior;4.2;percentual
+Paraná;novembro 2025;variacao_mesmo_mes_ano_anterior;4.5;percentual
+Paraná;dezembro 2025;variacao_mesmo_mes_ano_anterior;7.3;percentual
+Santa Catarina;janeiro 2025;variacao_mesmo_mes_ano_anterior;9.7;percentual
+Santa Catarina;fevereiro 2025;variacao_mesmo_mes_ano_anterior;13.7;percentual
+Santa Catarina;março 2025;variacao_mesmo_mes_ano_anterior;11.1;percentual
+Santa Catarina;abril 2025;variacao_mesmo_mes_ano_anterior;7.6;percentual
+Santa Catarina;maio 2025;variacao_mesmo_mes_ano_anterior;6.6;percentual
+Santa Catarina;junho 2025;variacao_mesmo_mes_ano_anterior;-3.4;percentual
+Santa Catarina;julho 2025;variacao_mesmo_mes_ano_anterior;-4.3;percentual
+Santa Catarina;agosto 2025;variacao_mesmo_mes_ano_anterior;-5.5;percentual
+Santa Catarina;setembro 2025;variacao_mesmo_mes_ano_anterior;-2.2;percentual
+Santa Catarina;outubro 2025;variacao_mesmo_mes_ano_anterior;-1.5;percentual
+Santa Catarina;novembro 2025;variacao_mesmo_mes_ano_anterior;-3.6;percentual
+Santa Catarina;dezembro 2025;variacao_mesmo_mes_ano_anterior;-5.0;percentual
+Rio Grande do Sul;janeiro 2025;variacao_mesmo_mes_ano_anterior;-6.1;percentual
+Rio Grande do Sul;fevereiro 2025;variacao_mesmo_mes_ano_anterior;-4.0;percentual
+Rio Grande do Sul;março 2025;variacao_mesmo_mes_ano_anterior;-6.1;percentual
+Rio Grande do Sul;abril 2025;variacao_mesmo_mes_ano_anterior;7.0;percentual
+Rio Grande do Sul;maio 2025;variacao_mesmo_mes_ano_anterior;50.4;percentual
+Rio Grande do Sul;junho 2025;variacao_mesmo_mes_ano_anterior;39.3;percentual
+Rio Grande do Sul;julho 2025;variacao_mesmo_mes_ano_anterior;20.3;percentual
+Rio Grande do Sul;agosto 2025;variacao_mesmo_mes_ano_anterior;14.9;percentual
+Rio Grande do Sul;setembro 2025;variacao_mesmo_mes_ano_anterior;16.6;percentual
+Rio Grande do Sul;outubro 2025;variacao_mesmo_mes_ano_anterior;18.8;percentual
+Rio Grande do Sul;novembro 2025;variacao_mesmo_mes_ano_anterior;8.1;percentual
+Rio Grande do Sul;dezembro 2025;variacao_mesmo_mes_ano_anterior;1.5;percentual
+Mato Grosso;janeiro 2025;variacao_mesmo_mes_ano_anterior;-11.2;percentual
+Mato Grosso;fevereiro 2025;variacao_mesmo_mes_ano_anterior;-3.3;percentual
+Mato Grosso;março 2025;variacao_mesmo_mes_ano_anterior;-6.8;percentual
+Mato Grosso;abril 2025;variacao_mesmo_mes_ano_anterior;-6.1;percentual
+Mato Grosso;maio 2025;variacao_mesmo_mes_ano_anterior;2.6;percentual
+Mato Grosso;junho 2025;variacao_mesmo_mes_ano_anterior;-1.1;percentual
+Mato Grosso;julho 2025;variacao_mesmo_mes_ano_anterior;-2.2;percentual
+Mato Grosso;agosto 2025;variacao_mesmo_mes_ano_anterior;2.1;percentual
+Mato Grosso;setembro 2025;variacao_mesmo_mes_ano_anterior;7.2;percentual
+Mato Grosso;outubro 2025;variacao_mesmo_mes_ano_anterior;0.6;percentual
+Mato Grosso;novembro 2025;variacao_mesmo_mes_ano_anterior;2.9;percentual
+Mato Grosso;dezembro 2025;variacao_mesmo_mes_ano_anterior;1.1;percentual
+Goiás;janeiro 2025;variacao_mesmo_mes_ano_anterior;9.1;percentual
+Goiás;fevereiro 2025;variacao_mesmo_mes_ano_anterior;1.8;percentual
+Goiás;março 2025;variacao_mesmo_mes_ano_anterior;3.3;percentual
+Goiás;abril 2025;variacao_mesmo_mes_ano_anterior;14.0;percentual
+Goiás;maio 2025;variacao_mesmo_mes_ano_anterior;5.4;percentual
+Goiás;junho 2025;variacao_mesmo_mes_ano_anterior;3.1;percentual
+Goiás;julho 2025;variacao_mesmo_mes_ano_anterior;-0.9;percentual
+Goiás;agosto 2025;variacao_mesmo_mes_ano_anterior;-1.2;percentual
+Goiás;setembro 2025;variacao_mesmo_mes_ano_anterior;-2.6;percentual
+Goiás;outubro 2025;variacao_mesmo_mes_ano_anterior;-6.9;percentual
+Goiás;novembro 2025;variacao_mesmo_mes_ano_anterior;-5.4;percentual
+Goiás;dezembro 2025;variacao_mesmo_mes_ano_anterior;-12.0;percentual
+Distrito Federal;janeiro 2025;variacao_mesmo_mes_ano_anterior;-1.4;percentual
+Distrito Federal;fevereiro 2025;variacao_mesmo_mes_ano_anterior;8.7;percentual
+Distrito Federal;março 2025;variacao_mesmo_mes_ano_anterior;-5.3;percentual
+Distrito Federal;abril 2025;variacao_mesmo_mes_ano_anterior;1.1;percentual
+Distrito Federal;maio 2025;variacao_mesmo_mes_ano_anterior;7.7;percentual
+Distrito Federal;junho 2025;variacao_mesmo_mes_ano_anterior;7.3;percentual
+Distrito Federal;julho 2025;variacao_mesmo_mes_ano_anterior;6.8;percentual
+Distrito Federal;agosto 2025;variacao_mesmo_mes_ano_anterior;7.6;percentual
+Distrito Federal;setembro 2025;variacao_mesmo_mes_ano_anterior;10.4;percentual
+Distrito Federal;outubro 2025;variacao_mesmo_mes_ano_anterior;7.2;percentual
+Distrito Federal;novembro 2025;variacao_mesmo_mes_ano_anterior;0.3;percentual
+Distrito Federal;dezembro 2025;variacao_mesmo_mes_ano_anterior;-1.6;percentual
+Brasil;janeiro 2025;variacao_acumulada_ano;3.5;percentual
+Brasil;fevereiro 2025;variacao_acumulada_ano;5.2;percentual
+Brasil;março 2025;variacao_acumulada_ano;5.5;percentual
+Brasil;abril 2025;variacao_acumulada_ano;6.4;percentual
+Brasil;maio 2025;variacao_acumulada_ano;7.1;percentual
+Brasil;junho 2025;variacao_acumulada_ano;6.6;percentual
+Brasil;julho 2025;variacao_acumulada_ano;6.1;percentual
+Brasil;agosto 2025;variacao_acumulada_ano;5.9;percentual
+Brasil;setembro 2025;variacao_acumulada_ano;5.8;percentual
+Brasil;outubro 2025;variacao_acumulada_ano;5.4;percentual
+Brasil;novembro 2025;variacao_acumulada_ano;5.2;percentual
+Brasil;dezembro 2025;variacao_acumulada_ano;4.6;percentual
+Amazonas;janeiro 2025;variacao_acumulada_ano;9.2;percentual
+Amazonas;fevereiro 2025;variacao_acumulada_ano;8.7;percentual
+Amazonas;março 2025;variacao_acumulada_ano;7.7;percentual
+Amazonas;abril 2025;variacao_acumulada_ano;9.1;percentual
+Amazonas;maio 2025;variacao_acumulada_ano;11.2;percentual
+Amazonas;junho 2025;variacao_acumulada_ano;11.8;percentual
+Amazonas;julho 2025;variacao_acumulada_ano;10.8;percentual
+Amazonas;agosto 2025;variacao_acumulada_ano;11.6;percentual
+Amazonas;setembro 2025;variacao_acumulada_ano;12.7;percentual
+Amazonas;outubro 2025;variacao_acumulada_ano;12.7;percentual
+Amazonas;novembro 2025;variacao_acumulada_ano;12.3;percentual
+Amazonas;dezembro 2025;variacao_acumulada_ano;11.4;percentual
+Pará;janeiro 2025;variacao_acumulada_ano;8.4;percentual
+Pará;fevereiro 2025;variacao_acumulada_ano;10.0;percentual
+Pará;março 2025;variacao_acumulada_ano;9.8;percentual
+Pará;abril 2025;variacao_acumulada_ano;8.4;percentual
+Pará;maio 2025;variacao_acumulada_ano;7.9;percentual
+Pará;junho 2025;variacao_acumulada_ano;7.7;percentual
+Pará;julho 2025;variacao_acumulada_ano;5.6;percentual
+Pará;agosto 2025;variacao_acumulada_ano;5.5;percentual
+Pará;setembro 2025;variacao_acumulada_ano;6.4;percentual
+Pará;outubro 2025;variacao_acumulada_ano;6.7;percentual
+Pará;novembro 2025;variacao_acumulada_ano;8.4;percentual
+Pará;dezembro 2025;variacao_acumulada_ano;7.5;percentual
+Ceará;janeiro 2025;variacao_acumulada_ano;1.4;percentual
+Ceará;fevereiro 2025;variacao_acumulada_ano;4.1;percentual
+Ceará;março 2025;variacao_acumulada_ano;7.2;percentual
+Ceará;abril 2025;variacao_acumulada_ano;8.2;percentual
+Ceará;maio 2025;variacao_acumulada_ano;8.7;percentual
+Ceará;junho 2025;variacao_acumulada_ano;8.2;percentual
+Ceará;julho 2025;variacao_acumulada_ano;8.0;percentual
+Ceará;agosto 2025;variacao_acumulada_ano;8.1;percentual
+Ceará;setembro 2025;variacao_acumulada_ano;8.4;percentual
+Ceará;outubro 2025;variacao_acumulada_ano;8.1;percentual
+Ceará;novembro 2025;variacao_acumulada_ano;7.9;percentual
+Ceará;dezembro 2025;variacao_acumulada_ano;7.2;percentual
+Rio Grande do Norte;janeiro 2025;variacao_acumulada_ano;3.7;percentual
+Rio Grande do Norte;fevereiro 2025;variacao_acumulada_ano;3.9;percentual
+Rio Grande do Norte;março 2025;variacao_acumulada_ano;7.5;percentual
+Rio Grande do Norte;abril 2025;variacao_acumulada_ano;7.3;percentual
+Rio Grande do Norte;maio 2025;variacao_acumulada_ano;7.0;percentual
+Rio Grande do Norte;junho 2025;variacao_acumulada_ano;6.4;percentual
+Rio Grande do Norte;julho 2025;variacao_acumulada_ano;5.5;percentual
+Rio Grande do Norte;agosto 2025;variacao_acumulada_ano;5.6;percentual
+Rio Grande do Norte;setembro 2025;variacao_acumulada_ano;5.6;percentual
+Rio Grande do Norte;outubro 2025;variacao_acumulada_ano;5.3;percentual
+Rio Grande do Norte;novembro 2025;variacao_acumulada_ano;5.1;percentual
+Rio Grande do Norte;dezembro 2025;variacao_acumulada_ano;4.3;percentual
+Pernambuco;janeiro 2025;variacao_acumulada_ano;-1.4;percentual
+Pernambuco;fevereiro 2025;variacao_acumulada_ano;-0.1;percentual
+Pernambuco;março 2025;variacao_acumulada_ano;0.8;percentual
+Pernambuco;abril 2025;variacao_acumulada_ano;2.6;percentual
+Pernambuco;maio 2025;variacao_acumulada_ano;2.6;percentual
+Pernambuco;junho 2025;variacao_acumulada_ano;2.6;percentual
+Pernambuco;julho 2025;variacao_acumulada_ano;3.1;percentual
+Pernambuco;agosto 2025;variacao_acumulada_ano;3.4;percentual
+Pernambuco;setembro 2025;variacao_acumulada_ano;4.0;percentual
+Pernambuco;outubro 2025;variacao_acumulada_ano;3.7;percentual
+Pernambuco;novembro 2025;variacao_acumulada_ano;3.8;percentual
+Pernambuco;dezembro 2025;variacao_acumulada_ano;2.9;percentual
+Alagoas;janeiro 2025;variacao_acumulada_ano;-1.9;percentual
+Alagoas;fevereiro 2025;variacao_acumulada_ano;-3.0;percentual
+Alagoas;março 2025;variacao_acumulada_ano;0.1;percentual
+Alagoas;abril 2025;variacao_acumulada_ano;2.4;percentual
+Alagoas;maio 2025;variacao_acumulada_ano;2.2;percentual
+Alagoas;junho 2025;variacao_acumulada_ano;1.4;percentual
+Alagoas;julho 2025;variacao_acumulada_ano;0.9;percentual
+Alagoas;agosto 2025;variacao_acumulada_ano;1.3;percentual
+Alagoas;setembro 2025;variacao_acumulada_ano;1.8;percentual
+Alagoas;outubro 2025;variacao_acumulada_ano;1.9;percentual
+Alagoas;novembro 2025;variacao_acumulada_ano;2.2;percentual
+Alagoas;dezembro 2025;variacao_acumulada_ano;2.0;percentual
+Bahia;janeiro 2025;variacao_acumulada_ano;9.0;percentual
+Bahia;fevereiro 2025;variacao_acumulada_ano;6.3;percentual
+Bahia;março 2025;variacao_acumulada_ano;8.9;percentual
+Bahia;abril 2025;variacao_acumulada_ano;10.2;percentual
+Bahia;maio 2025;variacao_acumulada_ano;10.6;percentual
+Bahia;junho 2025;variacao_acumulada_ano;9.2;percentual
+Bahia;julho 2025;variacao_acumulada_ano;8.4;percentual
+Bahia;agosto 2025;variacao_acumulada_ano;7.9;percentual
+Bahia;setembro 2025;variacao_acumulada_ano;8.0;percentual
+Bahia;outubro 2025;variacao_acumulada_ano;7.7;percentual
+Bahia;novembro 2025;variacao_acumulada_ano;7.6;percentual
+Bahia;dezembro 2025;variacao_acumulada_ano;7.0;percentual
+Minas Gerais;janeiro 2025;variacao_acumulada_ano;-1.7;percentual
+Minas Gerais;fevereiro 2025;variacao_acumulada_ano;0.9;percentual
+Minas Gerais;março 2025;variacao_acumulada_ano;1.0;percentual
+Minas Gerais;abril 2025;variacao_acumulada_ano;-0.1;percentual
+Minas Gerais;maio 2025;variacao_acumulada_ano;-0.4;percentual
+Minas Gerais;junho 2025;variacao_acumulada_ano;-1.7;percentual
+Minas Gerais;julho 2025;variacao_acumulada_ano;-2.6;percentual
+Minas Gerais;agosto 2025;variacao_acumulada_ano;-3.2;percentual
+Minas Gerais;setembro 2025;variacao_acumulada_ano;-3.6;percentual
+Minas Gerais;outubro 2025;variacao_acumulada_ano;-3.8;percentual
+Minas Gerais;novembro 2025;variacao_acumulada_ano;-3.9;percentual
+Minas Gerais;dezembro 2025;variacao_acumulada_ano;-4.5;percentual
+Espírito Santo;janeiro 2025;variacao_acumulada_ano;6.6;percentual
+Espírito Santo;fevereiro 2025;variacao_acumulada_ano;12.6;percentual
+Espírito Santo;março 2025;variacao_acumulada_ano;9.6;percentual
+Espírito Santo;abril 2025;variacao_acumulada_ano;8.5;percentual
+Espírito Santo;maio 2025;variacao_acumulada_ano;8.2;percentual
+Espírito Santo;junho 2025;variacao_acumulada_ano;6.3;percentual
+Espírito Santo;julho 2025;variacao_acumulada_ano;5.3;percentual
+Espírito Santo;agosto 2025;variacao_acumulada_ano;4.5;percentual
+Espírito Santo;setembro 2025;variacao_acumulada_ano;4.5;percentual
+Espírito Santo;outubro 2025;variacao_acumulada_ano;4.5;percentual
+Espírito Santo;novembro 2025;variacao_acumulada_ano;4.5;percentual
+Espírito Santo;dezembro 2025;variacao_acumulada_ano;4.6;percentual
+Rio de Janeiro;janeiro 2025;variacao_acumulada_ano;6.4;percentual
+Rio de Janeiro;fevereiro 2025;variacao_acumulada_ano;8.8;percentual
+Rio de Janeiro;março 2025;variacao_acumulada_ano;11.6;percentual
+Rio de Janeiro;abril 2025;variacao_acumulada_ano;13.8;percentual
+Rio de Janeiro;maio 2025;variacao_acumulada_ano;15.5;percentual
+Rio de Janeiro;junho 2025;variacao_acumulada_ano;14.3;percentual
+Rio de Janeiro;julho 2025;variacao_acumulada_ano;12.7;percentual
+Rio de Janeiro;agosto 2025;variacao_acumulada_ano;12.8;percentual
+Rio de Janeiro;setembro 2025;variacao_acumulada_ano;11.0;percentual
+Rio de Janeiro;outubro 2025;variacao_acumulada_ano;10.9;percentual
+Rio de Janeiro;novembro 2025;variacao_acumulada_ano;10.5;percentual
+Rio de Janeiro;dezembro 2025;variacao_acumulada_ano;10.3;percentual
+São Paulo;janeiro 2025;variacao_acumulada_ano;4.0;percentual
+São Paulo;fevereiro 2025;variacao_acumulada_ano;5.9;percentual
+São Paulo;março 2025;variacao_acumulada_ano;5.3;percentual
+São Paulo;abril 2025;variacao_acumulada_ano;6.4;percentual
+São Paulo;maio 2025;variacao_acumulada_ano;6.6;percentual
+São Paulo;junho 2025;variacao_acumulada_ano;6.1;percentual
+São Paulo;julho 2025;variacao_acumulada_ano;5.9;percentual
+São Paulo;agosto 2025;variacao_acumulada_ano;5.6;percentual
+São Paulo;setembro 2025;variacao_acumulada_ano;5.7;percentual
+São Paulo;outubro 2025;variacao_acumulada_ano;5.0;percentual
+São Paulo;novembro 2025;variacao_acumulada_ano;4.7;percentual
+São Paulo;dezembro 2025;variacao_acumulada_ano;4.0;percentual
+Paraná;janeiro 2025;variacao_acumulada_ano;2.3;percentual
+Paraná;fevereiro 2025;variacao_acumulada_ano;5.8;percentual
+Paraná;março 2025;variacao_acumulada_ano;4.5;percentual
+Paraná;abril 2025;variacao_acumulada_ano;4.4;percentual
+Paraná;maio 2025;variacao_acumulada_ano;5.8;percentual
+Paraná;junho 2025;variacao_acumulada_ano;6.0;percentual
+Paraná;julho 2025;variacao_acumulada_ano;6.1;percentual
+Paraná;agosto 2025;variacao_acumulada_ano;5.9;percentual
+Paraná;setembro 2025;variacao_acumulada_ano;5.9;percentual
+Paraná;outubro 2025;variacao_acumulada_ano;5.7;percentual
+Paraná;novembro 2025;variacao_acumulada_ano;5.6;percentual
+Paraná;dezembro 2025;variacao_acumulada_ano;5.8;percentual
+Santa Catarina;janeiro 2025;variacao_acumulada_ano;9.7;percentual
+Santa Catarina;fevereiro 2025;variacao_acumulada_ano;11.4;percentual
+Santa Catarina;março 2025;variacao_acumulada_ano;11.3;percentual
+Santa Catarina;abril 2025;variacao_acumulada_ano;10.5;percentual
+Santa Catarina;maio 2025;variacao_acumulada_ano;9.7;percentual
+Santa Catarina;junho 2025;variacao_acumulada_ano;7.7;percentual
+Santa Catarina;julho 2025;variacao_acumulada_ano;5.8;percentual
+Santa Catarina;agosto 2025;variacao_acumulada_ano;4.4;percentual
+Santa Catarina;setembro 2025;variacao_acumulada_ano;3.7;percentual
+Santa Catarina;outubro 2025;variacao_acumulada_ano;3.1;percentual
+Santa Catarina;novembro 2025;variacao_acumulada_ano;2.5;percentual
+Santa Catarina;dezembro 2025;variacao_acumulada_ano;1.8;percentual
+Rio Grande do Sul;janeiro 2025;variacao_acumulada_ano;-6.1;percentual
+Rio Grande do Sul;fevereiro 2025;variacao_acumulada_ano;-5.1;percentual
+Rio Grande do Sul;março 2025;variacao_acumulada_ano;-5.4;percentual
+Rio Grande do Sul;abril 2025;variacao_acumulada_ano;-2.5;percentual
+Rio Grande do Sul;maio 2025;variacao_acumulada_ano;5.1;percentual
+Rio Grande do Sul;junho 2025;variacao_acumulada_ano;9.7;percentual
+Rio Grande do Sul;julho 2025;variacao_acumulada_ano;11.3;percentual
+Rio Grande do Sul;agosto 2025;variacao_acumulada_ano;11.7;percentual
+Rio Grande do Sul;setembro 2025;variacao_acumulada_ano;12.3;percentual
+Rio Grande do Sul;outubro 2025;variacao_acumulada_ano;12.9;percentual
+Rio Grande do Sul;novembro 2025;variacao_acumulada_ano;12.4;percentual
+Rio Grande do Sul;dezembro 2025;variacao_acumulada_ano;11.3;percentual
+Mato Grosso;janeiro 2025;variacao_acumulada_ano;-11.2;percentual
+Mato Grosso;fevereiro 2025;variacao_acumulada_ano;-7.4;percentual
+Mato Grosso;março 2025;variacao_acumulada_ano;-7.2;percentual
+Mato Grosso;abril 2025;variacao_acumulada_ano;-6.9;percentual
+Mato Grosso;maio 2025;variacao_acumulada_ano;-5.0;percentual
+Mato Grosso;junho 2025;variacao_acumulada_ano;-4.3;percentual
+Mato Grosso;julho 2025;variacao_acumulada_ano;-4.0;percentual
+Mato Grosso;agosto 2025;variacao_acumulada_ano;-3.1;percentual
+Mato Grosso;setembro 2025;variacao_acumulada_ano;-2.0;percentual
+Mato Grosso;outubro 2025;variacao_acumulada_ano;-1.8;percentual
+Mato Grosso;novembro 2025;variacao_acumulada_ano;-1.4;percentual
+Mato Grosso;dezembro 2025;variacao_acumulada_ano;-1.1;percentual
+Goiás;janeiro 2025;variacao_acumulada_ano;9.1;percentual
+Goiás;fevereiro 2025;variacao_acumulada_ano;5.9;percentual
+Goiás;março 2025;variacao_acumulada_ano;5.1;percentual
+Goiás;abril 2025;variacao_acumulada_ano;7.3;percentual
+Goiás;maio 2025;variacao_acumulada_ano;6.9;percentual
+Goiás;junho 2025;variacao_acumulada_ano;6.2;percentual
+Goiás;julho 2025;variacao_acumulada_ano;4.9;percentual
+Goiás;agosto 2025;variacao_acumulada_ano;4.0;percentual
+Goiás;setembro 2025;variacao_acumulada_ano;3.3;percentual
+Goiás;outubro 2025;variacao_acumulada_ano;2.3;percentual
+Goiás;novembro 2025;variacao_acumulada_ano;1.5;percentual
+Goiás;dezembro 2025;variacao_acumulada_ano;0.1;percentual
+Distrito Federal;janeiro 2025;variacao_acumulada_ano;-1.4;percentual
+Distrito Federal;fevereiro 2025;variacao_acumulada_ano;3.5;percentual
+Distrito Federal;março 2025;variacao_acumulada_ano;0.3;percentual
+Distrito Federal;abril 2025;variacao_acumulada_ano;0.5;percentual
+Distrito Federal;maio 2025;variacao_acumulada_ano;2.0;percentual
+Distrito Federal;junho 2025;variacao_acumulada_ano;2.9;percentual
+Distrito Federal;julho 2025;variacao_acumulada_ano;3.5;percentual
+Distrito Federal;agosto 2025;variacao_acumulada_ano;4.1;percentual
+Distrito Federal;setembro 2025;variacao_acumulada_ano;4.8;percentual
+Distrito Federal;outubro 2025;variacao_acumulada_ano;5.1;percentual
+Distrito Federal;novembro 2025;variacao_acumulada_ano;4.6;percentual
+Distrito Federal;dezembro 2025;variacao_acumulada_ano;4.0;percentual
