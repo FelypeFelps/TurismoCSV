@@ -1,8 +1,47 @@
-# MÓDULO 2 - ARMAZENAMENTO DOS DADOS
 # Base: Tabela 8694 do IBGE - Atividades turísticas
-# Este código não utiliza bibliotecas.
-
 CAMINHO_ARQUIVO = "CSVTurismoIBGE.csv"
+
+def exibir_menu():
+    print("=" * 50)
+    print("        SISTEMA DE ANALISE DE TURISMO")
+    print("   Indices de Volume das Atividades Turisticas")
+    print("=" * 50)
+    print()
+    print("  [1] Importar dados do CSV")
+    print("  [2] Armazenar dados (lista de dicionarios)")
+    print("  [3] Consultas")
+    print("  [4] Estatisticas")
+    print("  [5] Gerar relatorio")
+    print("  [0] Sair")
+    print()
+    print("-" * 50)
+
+
+def main():
+    dados = []  
+
+    while True:
+        exibir_menu()
+        opcao = input("Escolha uma opcao: ")
+        if opcao == "1":
+            print("Dados importados!")
+        elif opcao == "2":
+            pass
+        elif opcao == "3":
+            pass
+        elif opcao == "4":
+            pass
+        elif opcao == "5":
+            pass
+        elif opcao == "0":
+            print("Até logo...")
+            break
+        else:
+            print("Opcão invalida, tente novamente.")
+
+        input("\nPressione ENTER para voltar ao menu...")
+
+
 
 
 def carregar_dados(caminho):
@@ -71,3 +110,7 @@ for registro in dados_turismo[:5]:
 print("\nExemplo de acesso a um campo:")
 print("Território do primeiro registro:", dados_turismo[0]["territorio"])
 print("Valor do primeiro registro:", dados_turismo[0]["valor"])
+
+#deixa esse cabrunco aqui no final do arquivo sempre 
+if __name__ == "__main__":
+    main()
