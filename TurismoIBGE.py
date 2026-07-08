@@ -503,7 +503,7 @@ def menu_consultas(dados):
 
         input("\nPressione ENTER para continuar...")
 
-        
+
 # Testes para verificar se o armazenamento funcionou.
 print("Colunas encontradas:")
 print("territorio, mes, variavel, valor, unidade")
