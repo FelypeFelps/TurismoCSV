@@ -266,79 +266,150 @@ def menu_consultas(dados):
         input("\nPressione ENTER para continuar...")
 
 
-# estatisticas
-def calcular_soma(valores):
-    return sum(valores)
-def calcular_media(valores):
-    return calcular_soma(valores) / len(valores)
-def calcular_minimo(valores):
-    return min(valores)
+# ==========================
+# MÓDULO 4 - ESTATÍSTICAS / EDA
+# ==========================
 
-#aqui vem funcoes que trabalham com dicts
+def filtrar_por_variavel(dados, variavel):
+    registros = []
+
+    for registro in dados:
+        if registro["variavel"] == variavel:
+            registros.append(registro)
+
+    return registros
+
+
+def calcular_soma(valores):
+    soma = 0
+
+    for valor in valores:
+        soma += valor
+
+    return soma
+
+
+def calcular_media(valores):
+    if len(valores) == 0:
+        return 0
+
+    return calcular_soma(valores) / len(valores)
+
 
 def registro_do_maximo(dados, variavel="numero_indice"):
-    # devolve o dicionario todo do maior indice, filtrando so a variavel certa
-    filtrados = [r for r in dados if r["variavel"] == variavel]
-    return max(filtrados, key=lambda registro: registro["valor"])
+    registros = filtrar_por_variavel(dados, variavel)
+
+    if len(registros) == 0:
+        return None
+
+    maior = registros[0]
+
+    for registro in registros:
+        if registro["valor"] > maior["valor"]:
+            maior = registro
+
+    return maior
+
 
 def registro_do_minimo(dados, variavel="numero_indice"):
-    filtrados = [r for r in dados if r["variavel"] == variavel]
-    return min(filtrados, key=lambda registro: registro["valor"])
+    registros = filtrar_por_variavel(dados, variavel)
+
+    if len(registros) == 0:
+        return None
+
+    menor = registros[0]
+
+    for registro in registros:
+        if registro["valor"] < menor["valor"]:
+            menor = registro
+
+    return menor
+
+
+def media_da_variavel(dados, variavel="numero_indice"):
+    valores = []
+
+    for registro in dados:
+        if registro["variavel"] == variavel:
+            valores.append(registro["valor"])
+
+    return calcular_media(valores)
+
 
 def agrupar_por_territorios(dados, variavel="numero_indice"):
     grupos = {}
+
     for registro in dados:
-        if registro["variavel"] != variavel:
-            continue
-        territorio = registro["territorio"]
-        valor = registro["valor"]
-        if territorio not in grupos:
-            grupos[territorio] = []
-        grupos[territorio].append(valor)
+        if registro["variavel"] == variavel:
+            territorio = registro["territorio"]
+            valor = registro["valor"]
+
+            if territorio not in grupos:
+                grupos[territorio] = []
+
+            grupos[territorio].append(valor)
+
     return grupos
+
 
 def media_por_territorios(dados, variavel="numero_indice"):
     grupos = agrupar_por_territorios(dados, variavel)
     medias = {}
+
     for territorio, valores in grupos.items():
         medias[territorio] = calcular_media(valores)
-    return medias 
 
-#top 10 
-def ranking_territorios(dados, quantidade=10, decrescente=True):
-    media = media_por_territorios(dados)   # ja filtra numero_indice por padrao
-    lista_ordenada = sorted(media.items(), key=lambda item: item[1], reverse=decrescente)
+    return medias
+
+
+def ranking_territorios(dados, quantidade=10, decrescente=True, variavel="numero_indice"):
+    medias = media_por_territorios(dados, variavel)
+    lista = list(medias.items())
+
+    lista_ordenada = sorted(
+        lista,
+        key=lambda item: item[1],
+        reverse=decrescente
+    )
+
     return lista_ordenada[:quantidade]
 
-#funcao pro submenu
+
 def escolher_quantidade_ranking():
-    print("\nQual ranking voce quer ver?")
+    print("\nQual ranking você quer ver?")
     print("  [1] Top 3")
     print("  [2] Top 10")
-    escolha = input("Escolha uma opcao: ")
+
+    escolha = input("Escolha uma opção: ")
 
     if escolha == "1":
         return 3
+
     elif escolha == "2":
         return 10
+
     else:
-        print("Opcao invalida, mostrando Top 10 por padrao.")
+        print("Opção inválida, mostrando Top 10 por padrão.")
         return 10
 
+
 def evolucao_mensal(dados, territorio="Brasil", variavel="numero_indice"):
-    # Evolução mês a mês de uma variável específica em um território.
     evolucao = {}
+
     for registro in dados:
         if (
             registro["territorio"].lower() == territorio.lower()
             and registro["variavel"] == variavel
         ):
             evolucao[registro["mes"]] = registro["valor"]
-    return evolucao   # <-- FALTAVA ISSO
+
+    return evolucao
 
 
-# --- variacao percentual (substitui a "soma", que nao tem sentido economico) ---
 def calcular_variacao_percentual(valor_inicial, valor_final):
+    if valor_inicial == 0:
+        return 0
+
     return ((valor_final - valor_inicial) / valor_inicial) * 100
 
 
@@ -346,7 +417,7 @@ def variacao_periodo(dados, territorio="Brasil", variavel="numero_indice"):
     evolucao = evolucao_mensal(dados, territorio, variavel)
     valores = list(evolucao.values())
 
-    if not valores:
+    if len(valores) == 0:
         return None
 
     valor_inicial = valores[0]
@@ -356,6 +427,214 @@ def variacao_periodo(dados, territorio="Brasil", variavel="numero_indice"):
     return valor_inicial, valor_final, variacao
 
 
+def variacao_por_territorios(dados, variavel="numero_indice"):
+    territorios = []
+
+    for registro in dados:
+        territorio = registro["territorio"]
+
+        if territorio not in territorios:
+            territorios.append(territorio)
+
+    resultado = []
+
+    for territorio in territorios:
+        variacao = variacao_periodo(dados, territorio, variavel)
+
+        if variacao is not None:
+            valor_inicial, valor_final, percentual = variacao
+
+            resultado.append({
+                "territorio": territorio,
+                "valor_inicial": valor_inicial,
+                "valor_final": valor_final,
+                "variacao": percentual
+            })
+
+    return resultado
+
+
+def ranking_variacao_territorios(dados, quantidade=10, decrescente=True):
+    variacoes = variacao_por_territorios(dados, "numero_indice")
+
+    ordenados = sorted(
+        variacoes,
+        key=lambda item: item["variacao"],
+        reverse=decrescente
+    )
+
+    return ordenados[:quantidade]
+
+
+def exibir_menu_estatisticas():
+    print("-" * 60)
+    print("EDA - ANÁLISE EXPLORATÓRIA DOS DADOS TURÍSTICOS")
+    print("-" * 60)
+    print("  [1] Estatísticas gerais do número índice")
+    print("  [2] Ranking de territórios por média do índice")
+    print("  [3] Ranking de crescimento do índice")
+    print("  [4] Evolução mensal de um território")
+    print("  [5] Destaques do turismo")
+    print("  [0] Voltar ao menu principal")
+    print("-" * 60)
+
+
+def mostrar_estatisticas(dados):
+    while True:
+        exibir_menu_estatisticas()
+        opcao = input("Escolha uma opção: ")
+
+        if opcao == "1":
+            registros_indice = filtrar_por_variavel(dados, "numero_indice")
+            territorios = []
+
+            for registro in registros_indice:
+                if registro["territorio"] not in territorios:
+                    territorios.append(registro["territorio"])
+
+            media_indice = media_da_variavel(dados, "numero_indice")
+            maximo = registro_do_maximo(dados, "numero_indice")
+            minimo = registro_do_minimo(dados, "numero_indice")
+            resultado_variacao = variacao_periodo(dados, "Brasil", "numero_indice")
+
+            print("\n--- ESTATÍSTICAS GERAIS DO NÚMERO ÍNDICE ---")
+            print(f"Quantidade de registros do número índice: {len(registros_indice)}")
+            print(f"Quantidade de territórios analisados: {len(territorios)}")
+            print(f"Média geral do número índice: {media_indice:.2f} pontos")
+
+            if maximo:
+                print(
+                    f"Maior número índice: {maximo['valor']:.2f} pontos "
+                    f"({maximo['territorio']}, {maximo['mes']})"
+                )
+
+            if minimo:
+                print(
+                    f"Menor número índice: {minimo['valor']:.2f} pontos "
+                    f"({minimo['territorio']}, {minimo['mes']})"
+                )
+
+            if resultado_variacao:
+                valor_inicial, valor_final, variacao = resultado_variacao
+
+                print(
+                    f"Variação do número índice no Brasil: "
+                    f"{valor_inicial:.2f} -> {valor_final:.2f} "
+                    f"({variacao:.2f}%)"
+                )
+
+        elif opcao == "2":
+            quantidade = escolher_quantidade_ranking()
+
+            print(f"\n--- TOP {quantidade} TERRITÓRIOS POR MÉDIA DO NÚMERO ÍNDICE ---")
+            for posicao, item in enumerate(ranking_territorios(dados, quantidade, True), start=1):
+                territorio, media = item
+                print(f"{posicao}. {territorio}: {media:.2f} pontos")
+
+            print(f"\n--- {quantidade} TERRITÓRIOS COM MENORES MÉDIAS DO NÚMERO ÍNDICE ---")
+            for posicao, item in enumerate(ranking_territorios(dados, quantidade, False), start=1):
+                territorio, media = item
+                print(f"{posicao}. {territorio}: {media:.2f} pontos")
+
+        elif opcao == "3":
+            quantidade = escolher_quantidade_ranking()
+
+            print(f"\n--- TOP {quantidade} MAIORES CRESCIMENTOS DO NÚMERO ÍNDICE ---")
+            for posicao, item in enumerate(ranking_variacao_territorios(dados, quantidade, True), start=1):
+                print(
+                    f"{posicao}. {item['territorio']}: "
+                    f"{item['valor_inicial']:.2f} -> {item['valor_final']:.2f} "
+                    f"({item['variacao']:.2f}%)"
+                )
+
+            print(f"\n--- TOP {quantidade} MAIORES QUEDAS DO NÚMERO ÍNDICE ---")
+            for posicao, item in enumerate(ranking_variacao_territorios(dados, quantidade, False), start=1):
+                print(
+                    f"{posicao}. {item['territorio']}: "
+                    f"{item['valor_inicial']:.2f} -> {item['valor_final']:.2f} "
+                    f"({item['variacao']:.2f}%)"
+                )
+
+        elif opcao == "4":
+            territorio = input("Digite o nome do território (ex: Brasil): ")
+
+            evolucao = evolucao_mensal(dados, territorio, "numero_indice")
+
+            if not evolucao:
+                print(f"\nNenhum dado encontrado para '{territorio}'.")
+
+            else:
+                print(f"\n--- EVOLUÇÃO MENSAL DO NÚMERO ÍNDICE: {territorio} ---")
+
+                for mes, valor in evolucao.items():
+                    print(f"{mes}: {valor:.2f} pontos")
+
+                resultado_variacao = variacao_periodo(dados, territorio, "numero_indice")
+
+                if resultado_variacao:
+                    valor_inicial, valor_final, variacao = resultado_variacao
+
+                    print(
+                        f"\nVariação no período: "
+                        f"{valor_inicial:.2f} -> {valor_final:.2f} "
+                        f"({variacao:.2f}%)"
+                    )
+
+        elif opcao == "5":
+            medias = media_por_territorios(dados, "numero_indice")
+            maior_media = max(medias, key=medias.get)
+            menor_media = min(medias, key=medias.get)
+
+            maior_crescimento = ranking_variacao_territorios(dados, 1, True)[0]
+            maior_queda = ranking_variacao_territorios(dados, 1, False)[0]
+
+            maximo = registro_do_maximo(dados, "numero_indice")
+            minimo = registro_do_minimo(dados, "numero_indice")
+
+            print("\n--- DESTAQUES DO TURISMO ---")
+
+            print(
+                f"O território com maior média do número índice foi "
+                f"{maior_media}, com média de {medias[maior_media]:.2f} pontos."
+            )
+
+            print(
+                f"O território com menor média do número índice foi "
+                f"{menor_media}, com média de {medias[menor_media]:.2f} pontos."
+            )
+
+            print(
+                f"O maior crescimento no período foi de "
+                f"{maior_crescimento['territorio']}, com variação de "
+                f"{maior_crescimento['variacao']:.2f}%."
+            )
+
+            print(
+                f"A maior queda no período foi de "
+                f"{maior_queda['territorio']}, com variação de "
+                f"{maior_queda['variacao']:.2f}%."
+            )
+
+            print(
+                f"O maior valor mensal do número índice foi "
+                f"{maximo['valor']:.2f} pontos em {maximo['territorio']} "
+                f"no mês de {maximo['mes']}."
+            )
+
+            print(
+                f"O menor valor mensal do número índice foi "
+                f"{minimo['valor']:.2f} pontos em {minimo['territorio']} "
+                f"no mês de {minimo['mes']}."
+            )
+
+        elif opcao == "0":
+            break
+
+        else:
+            print("Opção inválida, tente novamente.")
+
+        if opcao != "0":
+            input("\nPressione ENTER para continuar...")
 def exibir_menu_estatisticas():
     print("-" * 50)
     print("ESTATISTICAS - Índice Atividades Turisticas 2025")
@@ -364,7 +643,7 @@ def exibir_menu_estatisticas():
     print("  [2] Ranking de territorios (maiores medias)")
     print("  [3] Ranking de territorios (menores medias)")
     print("  [4] Evolucao mensal de um territorio")
-    print("  [5] Insights")
+    print("  [5] Destaques do Turismo")
     print("  [0] Voltar ao menu principal")
     print("-" * 50)
  
