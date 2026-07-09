@@ -320,14 +320,15 @@ def escolher_quantidade_ranking():
     else:
         print("Opcao invalida, mostrando Top 10 por padrao.")
         return 10
-
-def evolucao_mensal(dados, territorio="Brasil"):
-    #mes a mes, territorio especifico
+def evolucao_mensal(dados, territorio="Brasil", variavel="numero_indice"):
+    # Evolução mês a mês de uma variável específica em um território.
     evolucao = {}
+
     for registro in dados:
-        if registro["territorio"].lower() == territorio.lower():
+        if (
+            registro["territorio"].lower() == territorio.lower()
+            and registro["variavel"] == variavel):
             evolucao[registro["mes"]] = registro["valor"]
-    return evolucao
 
 
 # --- variacao percentual (substitui a "soma", que nao tem sentido economico) ---
@@ -336,9 +337,9 @@ def calcular_variacao_percentual(valor_inicial, valor_final):
     return ((valor_final - valor_inicial) / valor_inicial) * 100
 
 
-def variacao_periodo(dados, territorio="Brasil"):
-    # compara o primeiro e o ultimo mes disponivel para o territorio
-    evolucao = evolucao_mensal(dados, territorio)
+def variacao_periodo(dados, territorio="Brasil", variavel="numero_indice"):
+    # Compara o primeiro e o último mês disponível de uma variável específica.
+    evolucao = evolucao_mensal(dados, territorio, variavel)
     valores = list(evolucao.values())
 
     if not valores:
@@ -421,7 +422,7 @@ def mostrar_estatisticas(dados):
             maior_territorio = max(medias, key=medias.get)
             menor_territorio = min(medias, key=medias.get)
  
-            print("\n--- INSIGHTS ---")
+            print("\n--- Destaques do turismo ---")
             print(
                 f"O territorio com maior indice medio de turismo e "
                 f"{maior_territorio}, com media de {medias[maior_territorio]:.2f} pontos."
@@ -463,7 +464,7 @@ def menu_principal():
             mostrar_estatisticas(dados_turismo)
 
         elif opcao == "0":
-            print("\nEncerrando sistema...")
+            print("\nVolte sempre...")
             break
 
         else:
