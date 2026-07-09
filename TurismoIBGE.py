@@ -276,16 +276,20 @@ def calcular_minimo(valores):
 
 #aqui vem funcoes que trabalham com dicts
 
-def registro_do_maximo(dados):
-    #devolve o dicionario todo do maior indice
-    return max(dados, key=lambda registro: registro["valor"])
+def registro_do_maximo(dados, variavel="numero_indice"):
+    # devolve o dicionario todo do maior indice, filtrando so a variavel certa
+    filtrados = [r for r in dados if r["variavel"] == variavel]
+    return max(filtrados, key=lambda registro: registro["valor"])
 
-def registro_do_minimo(dados):
-    #mesma coisa so que menor indice
-    return min(dados, key=lambda registro: registro["valor"])
-def agrupar_por_territorios(dados):
+def registro_do_minimo(dados, variavel="numero_indice"):
+    filtrados = [r for r in dados if r["variavel"] == variavel]
+    return min(filtrados, key=lambda registro: registro["valor"])
+
+def agrupar_por_territorios(dados, variavel="numero_indice"):
     grupos = {}
     for registro in dados:
+        if registro["variavel"] != variavel:
+            continue
         territorio = registro["territorio"]
         valor = registro["valor"]
         if territorio not in grupos:
@@ -293,8 +297,8 @@ def agrupar_por_territorios(dados):
         grupos[territorio].append(valor)
     return grupos
 
-def media_por_territorios(dados):
-    grupos = agrupar_por_territorios(dados)
+def media_por_territorios(dados, variavel="numero_indice"):
+    grupos = agrupar_por_territorios(dados, variavel)
     medias = {}
     for territorio, valores in grupos.items():
         medias[territorio] = calcular_media(valores)
@@ -302,7 +306,7 @@ def media_por_territorios(dados):
 
 #top 10 
 def ranking_territorios(dados, quantidade=10, decrescente=True):
-    media = media_por_territorios(dados)
+    media = media_por_territorios(dados)   # ja filtra numero_indice por padrao
     lista_ordenada = sorted(media.items(), key=lambda item: item[1], reverse=decrescente)
     return lista_ordenada[:quantidade]
 
@@ -320,25 +324,25 @@ def escolher_quantidade_ranking():
     else:
         print("Opcao invalida, mostrando Top 10 por padrao.")
         return 10
+
 def evolucao_mensal(dados, territorio="Brasil", variavel="numero_indice"):
     # Evolução mês a mês de uma variável específica em um território.
     evolucao = {}
-
     for registro in dados:
         if (
             registro["territorio"].lower() == territorio.lower()
-            and registro["variavel"] == variavel):
+            and registro["variavel"] == variavel
+        ):
             evolucao[registro["mes"]] = registro["valor"]
+    return evolucao   # <-- FALTAVA ISSO
 
 
 # --- variacao percentual (substitui a "soma", que nao tem sentido economico) ---
 def calcular_variacao_percentual(valor_inicial, valor_final):
-    # mostra quanto o indice cresceu ou caiu, em percentual, entre dois pontos no tempo
     return ((valor_final - valor_inicial) / valor_inicial) * 100
 
 
 def variacao_periodo(dados, territorio="Brasil", variavel="numero_indice"):
-    # Compara o primeiro e o último mês disponível de uma variável específica.
     evolucao = evolucao_mensal(dados, territorio, variavel)
     valores = list(evolucao.values())
 
@@ -369,31 +373,28 @@ def mostrar_estatisticas(dados):
     while True:
         exibir_menu_estatisticas()
         opcao = input("Escolha uma opcao: ")
- 
         if opcao == "1":
-            valores = [registro["valor"] for registro in dados]
+            registros_indice = [r for r in dados if r["variavel"] == "numero_indice"]
+            valores = [registro["valor"] for registro in registros_indice]
             maximo = registro_do_maximo(dados)
             minimo = registro_do_minimo(dados)
             resultado_variacao = variacao_periodo(dados, "Brasil")
- 
-            print("\n--- ESTATISTICAS GERAIS ---")
+
+            print("\n--- ESTATISTICAS GERAIS (Numero Indice) ---")
             print(f"Quantidade de registros: {len(valores)}")
             print(f"Media geral do indice: {calcular_media(valores):.2f}")
             print(
                 f"Maximo: {maximo['valor']:.2f} "
-                f"({maximo['territorio']}, {maximo['mes']})"
-            )
+                f"({maximo['territorio']}, {maximo['mes']})")
             print(
                 f"Minimo: {minimo['valor']:.2f} "
-                f"({minimo['territorio']}, {minimo['mes']})"
-            )
+                f"({minimo['territorio']}, {minimo['mes']})")
 
             if resultado_variacao:
                 valor_inicial, valor_final, variacao = resultado_variacao
                 print(
                     f"Variacao do indice no Brasil (primeiro mes: {valor_inicial:.2f} "
-                    f"-> ultimo mes: {valor_final:.2f}): {variacao:.2f}%"
-                )
+                    f"-> ultimo mes: {valor_final:.2f}): {variacao:.2f}%")
  
         elif opcao == "2":
             quantidade = escolher_quantidade_ranking()   # pergunta e guarda a resposta (3 ou 10)
