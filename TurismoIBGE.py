@@ -266,23 +266,6 @@ def menu_consultas(dados):
         input("\nPressione ENTER para continuar...")
 
 
-# Testes para verificar se o armazenamento funcionou.
-print("Colunas encontradas:")
-print("territorio, mes, variavel, valor, unidade")
-
-print("\nQuantidade de registros armazenados:", len(dados_turismo))
-
-print("\nPrimeiros cinco registros:")
-for registro in dados_turismo[:5]:
-    print(registro)
-
-print("\nExemplo de acesso a um campo:")
-print("Território do primeiro registro:", dados_turismo[0]["territorio"])
-print("Valor do primeiro registro:", dados_turismo[0]["valor"])
-
-menu_consultas(dados_turismo)
-
-
 # estatisticas
 def calcular_soma(valores):
     return sum(valores)
@@ -456,4 +439,34 @@ def mostrar_estatisticas(dados):
         if opcao != "0":
             input("\nPressione ENTER para continuar...")
 
-mostrar_estatisticas(dados_turismo)
+# ==========================
+# MENU PRINCIPAL
+# ==========================
+
+def menu_principal():
+
+    while True:
+
+        print("\n" + "=" * 50)
+        print("SISTEMA DE DADOS DE TURISMO - IBGE")
+        print("=" * 50)
+        print("1 - Consultas")
+        print("2 - Estatísticas")
+        print("0 - Sair")
+
+        opcao = input("\nEscolha uma opção: ")
+
+        if opcao == "1":
+            menu_consultas(dados_turismo)
+
+        elif opcao == "2":
+            mostrar_estatisticas(dados_turismo)
+
+        elif opcao == "0":
+            print("\nEncerrando sistema...")
+            break
+
+        else:
+            print("\nOpção inválida.")
+
+menu_principal()
