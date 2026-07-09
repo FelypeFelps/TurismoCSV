@@ -1,0 +1,76 @@
+============================================================
+RELATÓRIO - SISTEMA DE ANÁLISE DE TURISMO
+Fonte: IBGE - Tabela 8694
+Gerado em: 09/07/2026 00:15
+============================================================
+
+1. ESTATÍSTICAS GERAIS DO NÚMERO ÍNDICE
+------------------------------------------------------------
+Quantidade total de registros no CSV : 648
+Quantidade de registros analisados   : 216
+Média geral do número índice         : 111.18 pontos
+Máximo                                : 157.65 pontos (Bahia, janeiro 2025)
+Mínimo                                : 74.81 pontos (Mato Grosso, fevereiro 2025)
+
+2. DISTRIBUIÇÃO DOS REGISTROS POR TERRITÓRIO
+------------------------------------------------------------
+Brasil                12 registros (5.6%)
+Amazonas              12 registros (5.6%)
+Pará                  12 registros (5.6%)
+Ceará                 12 registros (5.6%)
+Rio Grande do Norte   12 registros (5.6%)
+Pernambuco            12 registros (5.6%)
+Alagoas               12 registros (5.6%)
+Bahia                 12 registros (5.6%)
+Minas Gerais          12 registros (5.6%)
+Espírito Santo        12 registros (5.6%)
+Rio de Janeiro        12 registros (5.6%)
+São Paulo             12 registros (5.6%)
+Paraná                12 registros (5.6%)
+Santa Catarina        12 registros (5.6%)
+Rio Grande do Sul     12 registros (5.6%)
+Mato Grosso           12 registros (5.6%)
+Goiás                 12 registros (5.6%)
+Distrito Federal      12 registros (5.6%)
+
+3. RANKING - TOP 10 TERRITÓRIOS COM MAIOR MÉDIA
+------------------------------------------------------------
+ 1. Rio de Janeiro       130.76 pontos
+ 2. Bahia                129.07 pontos
+ 3. Paraná               126.56 pontos
+ 4. Pará                 123.15 pontos
+ 5. Santa Catarina       119.03 pontos
+ 6. Brasil               116.23 pontos
+ 7. Minas Gerais         115.78 pontos
+ 8. São Paulo            115.45 pontos
+ 9. Pernambuco           109.58 pontos
+10. Ceará                108.16 pontos
+
+4. RANKING - 10 TERRITÓRIOS COM MENOR MÉDIA
+------------------------------------------------------------
+ 1. Mato Grosso          87.30 pontos
+ 2. Rio Grande do Sul    98.65 pontos
+ 3. Distrito Federal     101.94 pontos
+ 4. Alagoas              102.84 pontos
+ 5. Espírito Santo       103.32 pontos
+ 6. Goiás                103.83 pontos
+ 7. Rio Grande do Norte  104.80 pontos
+ 8. Amazonas             104.87 pontos
+ 9. Ceará                108.16 pontos
+10. Pernambuco           109.58 pontos
+
+5. VARIAÇÃO DO NÚMERO ÍNDICE NO BRASIL
+------------------------------------------------------------
+Valor inicial do índice : 118.02 pontos
+Valor final do índice   : 130.06 pontos
+O índice do Brasil cresceu 10.20% no período analisado.
+
+6. INSIGHTS
+------------------------------------------------------------
+O território com maior índice médio foi Rio de Janeiro, com média de 130.76 pontos.
+O território com menor índice médio foi Mato Grosso, com média de 87.30 pontos.
+A análise foi concentrada no número índice da atividade turística, pois esse indicador representa diretamente o nível da atividade turística nos territórios analisados.
+As variáveis de variação acumulada e variação em relação ao mesmo mês do ano anterior foram mantidas para consultas, mas não foram misturadas na EDA principal.
+
+============================================================
+Fim do relatório.

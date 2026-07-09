@@ -721,6 +721,137 @@ def mostrar_estatisticas(dados):
             input("\nPressione ENTER para continuar...")
 
 # ==========================
+# MÓDULO 5 - RELATÓRIO
+# ==========================
+
+from datetime import datetime
+def gerar_relatorio(dados, caminho_saida="relatorio_turismo.txt"):
+    registros_indice = [r for r in dados if r["variavel"] == "numero_indice"]
+    valores = [r["valor"] for r in registros_indice]
+
+    quantidade = len(valores)
+    media = calcular_media(valores)
+
+    maximo = registro_do_maximo(dados, "numero_indice")
+    minimo = registro_do_minimo(dados, "numero_indice")
+
+    # Frequência e percentual por território.
+    freq = {}
+    for r in registros_indice:
+        freq[r["territorio"]] = freq.get(r["territorio"], 0) + 1
+
+    percentual = {}
+    for territorio, contagem in freq.items():
+        percentual[territorio] = (contagem / quantidade) * 100
+
+    maiores = ranking_territorios(dados, 10, True, "numero_indice")
+    menores = ranking_territorios(dados, 10, False, "numero_indice")
+
+    medias = media_por_territorios(dados, "numero_indice")
+    maior_territorio = max(medias, key=medias.get)
+    menor_territorio = min(medias, key=medias.get)
+
+    resultado_variacao = variacao_periodo(dados, "Brasil", "numero_indice")
+
+    linhas = []
+    linhas.append("=" * 60)
+    linhas.append("RELATÓRIO - SISTEMA DE ANÁLISE DE TURISMO")
+    linhas.append("Fonte: IBGE - Tabela 8694")
+    linhas.append(f"Gerado em: {datetime.now().strftime('%d/%m/%Y %H:%M')}")
+    linhas.append("=" * 60)
+
+    linhas.append("\n1. ESTATÍSTICAS GERAIS DO NÚMERO ÍNDICE")
+    linhas.append("-" * 60)
+    linhas.append(f"Quantidade total de registros no CSV : {len(dados)}")
+    linhas.append(f"Quantidade de registros analisados   : {quantidade}")
+    linhas.append(f"Média geral do número índice         : {media:.2f} pontos")
+
+    if maximo:
+        linhas.append(
+            f"Máximo                                : "
+            f"{maximo['valor']:.2f} pontos "
+            f"({maximo['territorio']}, {maximo['mes']})"
+        )
+
+    if minimo:
+        linhas.append(
+            f"Mínimo                                : "
+            f"{minimo['valor']:.2f} pontos "
+            f"({minimo['territorio']}, {minimo['mes']})"
+        )
+
+    linhas.append("\n2. DISTRIBUIÇÃO DOS REGISTROS POR TERRITÓRIO")
+    linhas.append("-" * 60)
+
+    for territorio, contagem in freq.items():
+        linhas.append(
+            f"{territorio:<20} {contagem:>3} registros "
+            f"({percentual[territorio]:.1f}%)"
+        )
+
+    linhas.append("\n3. RANKING - TOP 10 TERRITÓRIOS COM MAIOR MÉDIA")
+    linhas.append("-" * 60)
+
+    for posicao, item in enumerate(maiores, start=1):
+        territorio, media_territorio = item
+        linhas.append(f"{posicao:>2}. {territorio:<20} {media_territorio:.2f} pontos")
+
+    linhas.append("\n4. RANKING - 10 TERRITÓRIOS COM MENOR MÉDIA")
+    linhas.append("-" * 60)
+
+    for posicao, item in enumerate(menores, start=1):
+        territorio, media_territorio = item
+        linhas.append(f"{posicao:>2}. {territorio:<20} {media_territorio:.2f} pontos")
+
+    linhas.append("\n5. VARIAÇÃO DO NÚMERO ÍNDICE NO BRASIL")
+    linhas.append("-" * 60)
+
+    if resultado_variacao:
+        vi, vf, var = resultado_variacao
+        tendencia = "cresceu" if var > 0 else "caiu"
+
+        linhas.append(f"Valor inicial do índice : {vi:.2f} pontos")
+        linhas.append(f"Valor final do índice   : {vf:.2f} pontos")
+        linhas.append(
+            f"O índice do Brasil {tendencia} "
+            f"{abs(var):.2f}% no período analisado."
+        )
+    else:
+        linhas.append("Não foi possível calcular a variação para o Brasil.")
+
+    linhas.append("\n6. INSIGHTS")
+    linhas.append("-" * 60)
+    linhas.append(
+        f"O território com maior índice médio foi {maior_territorio}, "
+        f"com média de {medias[maior_territorio]:.2f} pontos."
+    )
+    linhas.append(
+        f"O território com menor índice médio foi {menor_territorio}, "
+        f"com média de {medias[menor_territorio]:.2f} pontos."
+    )
+    linhas.append(
+        "A análise foi concentrada no número índice da atividade turística, "
+        "pois esse indicador representa diretamente o nível da atividade "
+        "turística nos territórios analisados."
+    )
+    linhas.append(
+        "As variáveis de variação acumulada e variação em relação ao mesmo mês "
+        "do ano anterior foram mantidas para consultas, mas não foram misturadas."
+    )
+
+    linhas.append("\n" + "=" * 60)
+    linhas.append("Fim.")
+
+    conteudo = "\n".join(linhas)
+
+    with open(caminho_saida, "w", encoding="utf-8") as arquivo:
+        arquivo.write(conteudo)
+
+    print(f"\nRelatório gerado com sucesso na mesma pasta deste arquivo python: {caminho_saida}")
+    return caminho_saida
+
+
+# ==========================
 # MENU PRINCIPAL
 # ==========================
 
@@ -733,6 +864,7 @@ def menu_principal():
         print("=" * 50)
         print("1 - Consultas")
         print("2 - Estatísticas")
+        print("3 - Gerar relatório TXT")
         print("0 - Sair")
 
         opcao = input("\nEscolha uma opção: ")
@@ -743,11 +875,13 @@ def menu_principal():
         elif opcao == "2":
             mostrar_estatisticas(dados_turismo)
 
+        elif opcao == "3":
+            gerar_relatorio(dados_turismo)
+
         elif opcao == "0":
             print("\nVolte sempre...")
             break
 
         else:
             print("\nOpção inválida.")
-
 menu_principal()
